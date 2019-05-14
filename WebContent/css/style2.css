@@ -1,0 +1,155 @@
+body{
+margin:0;
+padding:0;
+background-color: #333;
+}
+
+
+
+
+.bar{
+background: white;
+width:45px;
+height:8px;
+margin-top:8px;
+border-radius: 5px;
+}
+.mainHeader{
+background: #114A73;
+padding-top: 8px;
+box-shadow: 0px 3px 18px #888888
+}
+.mainFooter{
+background: #114A73;
+
+}
+.mainHeader .mainNav .button {
+	position:absolute;
+	left:15px;
+	top:11px;
+	background: #114A73;
+	cursor: pointer;
+
+}
+.mainHeader .mainNav img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainHeader .mainNav{
+	text-align: center;
+	color: white;
+	}
+	
+	
+.mainHeader .mainNav p{
+padding-top: 8px;	
+padding-bottom: 8px;	
+margin:0;
+}
+
+.mainHeader .mainNav ul{
+	list-style:none;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left:0;
+	margin:0;
+	
+	
+}
+.navUnvisible{
+	display: none;
+}
+.mainFooter .mainNav ol{
+	list-style:none;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left:0;
+	margin:0;
+	text-align: center;
+
+}
+
+.mainHeader .mainNav ul li{
+	border-top: solid 1px black;
+	
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.mainHeader .mainNav ul li a{
+	text-decoration: none;
+	color:white;
+}
+
+.mainFooter .mainNav ol li{
+	border-top: solid 1px black;
+	color:white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.mainFooter .mainNav ol li a{
+	text-decoration: none;
+	color:white;
+	cursor: pointer;
+}
+
+header .helloHeader{
+	text-align:center;
+ color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+background-repeat:none;
+background-attachment:fixed;
+ background-position: center center;
+background-size:100% 100%;
+padding-bottom:5em;
+padding-top:5em;
+background-image: url("../img/arcticBackground.jpg");
+
+}
+h2{
+	font-size: 4vw;
+}
+
+h3{
+	font-size: 3vw;
+}
+h4{
+	font-size: 2vw;
+}
+
+.mPpictureContainer{
+
+padding-top:40vw;
+padding-bottom: 40vw;
+background-image: url("../img/beach.jpg");
+background-repeat:none;
+ background-position: center center;
+background-size:100% 100%;
+
+}
+.mPpictureContainer .textContainer{
+
+text-align: center;
+background: rgba(0, 0, 0, 0.5);
+color:white;
+width: 60vw;
+padding:0.2em;
+position:relative;
+left:32vw;
+top:35vw;
+}
+.solarViewContainer{
+padding-top:4em;
+padding-bottom:2em;
+}
+
+.solarViewContainer img{
+width:80vw;
+height: 60vw;
+}
+.solarViewContainer h3{
+color:yellow;
+padding:0;
+}
